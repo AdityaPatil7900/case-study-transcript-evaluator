@@ -1,0 +1,59 @@
+section,metric,metric_points,weight
+Content & Structure,Salutation Level,5.0,40.0
+Content & Structure,"Key word Presence (Does this include name, age, class, school, family, hobbies/interests, goals, and unique point)",30.0,30.0
+Content & Structure,"Flow (Is the introduction following the order, Salutation --> Name --> Mandatory details --> Optional Details --> Closing",5.0,5.0
+Speech Rate,Speech rate(words/minute),10.0,10.0
+Language & Grammar,Grammar errors count using Language Tool,10.0,20.0
+Language & Grammar,Vocabulary richness (MTLD/TTR),10.0,10.0
+Clarity,Filler Word Rate,15.0,15.0
+Engagement,Sentiment/positivity (Transcript-based emotion model),15.0,15.0
+Engagement,,100.0,100.0
+Engagement,Scoring creteria,,
+Content & Structure,Salutation Level ( based the type of saluation provided give the Score),0.0,5.0
+Content & Structure,Normal,2.0,2.0
+Content & Structure,Good,4.0,4.0
+Content & Structure,Excellent,5.0,5.0
+Content & Structure,"Key word Presence 
+(Does the text include name, age, class, school, family, hobbies/interests, goals, and unique point) and give point accordingly",4.0,20.0
+Content & Structure,Good to have  (each has score of 2),2.0,10.0
+Content & Structure,"Flow (Is the introduction following the order, Salutation --> Name --> Mandatory details --> Optional Details --> Closing",5.0,5.0
+Content & Structure,Order Not followed,0.0,0.0
+Speech Rate,Speech rate(words/minute) or WPM,161.0,2.0
+Speech Rate,Fast,141.0,-160.0
+Speech Rate,Ideal,111.0,-140.0
+Speech Rate,Slow,81.0,-110.0
+Speech Rate,Too slow,80.0,2.0
+Language & Grammar,"Grammar errors count using Language Tool
+Use Python Language tool can be used to identify the errors",1.0,100.0
+Language & Grammar,0.7 to 0.89,0.7,0.89
+Language & Grammar,0.5 to 0.69,0.5,0.69
+Language & Grammar,0.3 to 0.49,0.3,0.49
+Language & Grammar,<0.3,0.3,2.0
+Language & Grammar,"Vocabulary richness 
+Option 1 : TTR ( Type token error 0, easy and simple)
+Option 2 : MTLD using python Libraries  (Measure of Textual Lexical Diversity)
+
+Any option is preferable.",1.0,0.0
+Language & Grammar,0.7–0.89,0.7,0.89
+Language & Grammar,0.5–0.69,0.5,0.69
+Language & Grammar,0.3–0.49,0.3,0.49
+Language & Grammar,0–0.29,0.0,0.29
+Clarity,"Filler Word Rate 
+Filler words List (um, uh, like, you know, so, actually, basically, right, i mean, well, kinda, sort of, okay, hmm, ah)
+Find the Filler words either using Python Libraries or using keyword search.",100.0,0.0
+Clarity,4 to 6,4.0,6.0
+Clarity,7 to 9,7.0,9.0
+Clarity,10 to 12,10.0,12.0
+Clarity,13  and above,13.0,3.0
+Engagement,"Sentiment/positivity (Transcript-based emotion model)
+
+Positive (enthusiastic, confident, grateful)
+Neutral (factual, calm)
+Negative (disinterested, anxious, dull)
+
+Using any open source  libraries for sentiment analysis like VADER or  spaCy",0.0,1.0
+Engagement,0.7 to 0.89,0.7,0.89
+Engagement,0.5 to 0.69,0.5,0.69
+Engagement,0.3 to 0.49,0.3,0.49
+Engagement,<0.3,0.3,3.0
+Engagement,,100.0,86.0
