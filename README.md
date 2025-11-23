@@ -5,7 +5,7 @@ Automated Rubric-Based Transcript Evaluation (Streamlit + Python)
 Author: Aditya Jaypalsing Patil
 📧 adityapatil0790@gmail.com
 
-🔗 LinkedIn
+🔗 LinkedIn - https://www.linkedin.com/in/aditya-patil-aj7900/
 
 🚀 Project Overview
 
